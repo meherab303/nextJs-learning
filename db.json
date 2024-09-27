@@ -1,0 +1,47 @@
+{
+    "shoes":[
+        {
+          "id": 1,
+          "title": "Classic Leather Sneakers",
+          "description": "A timeless classic, these leather sneakers are perfect for casual wear.",
+          "price": 120.99,
+          "category": "Sneakers"
+        },
+        {
+          "id": 2,
+          "title": "Basketball Shoes",
+          "description": "Designed for performance on the court, these high-top basketball shoes provide great ankle support.",
+          "price": 150.50,
+          "category": "Sports"
+        },
+        {
+          "id": 3,
+          "title": "Running Shoes",
+          "description": "Lightweight running shoes with extra cushioning for long-distance comfort.",
+          "price": 98.75,
+          "category": "Running"
+        },
+        {
+          "id": 4,
+          "title": "Formal Leather Shoes",
+          "description": "Elegant leather shoes suitable for formal occasions and business attire.",
+          "price": 200.00,
+          "category": "Formal"
+        },
+        {
+          "id": 5,
+          "title": "Slip-On Loafers",
+          "description": "Comfortable slip-on loafers with a sleek design, perfect for casual or semi-formal wear.",
+          "price": 85.49,
+          "category": "Casual"
+        },
+        {
+          "id": 6,
+          "title": "Trail Running Shoes",
+          "description": "Durable trail running shoes with extra grip for rough terrains.",
+          "price": 130.89,
+          "category": "Outdoor"
+        }
+      ]
+      
+  }
