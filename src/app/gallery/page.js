@@ -1,7 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import plushImage from '../../assets/plush.avif'
+// import plushImage from '../../assets/plush.avif'-->relative path
+import plushImage from '@/assets/plush.avif' //absulate path
+export const metadata={
+    title:'Gallery ',
+    description:"this is Gallery page"
 
+}
 
 const GalleryImage = () => {
     return (
@@ -30,5 +35,7 @@ shob domain support er jnno
       },
 use korte hbe
 3.next.js er Image compo te height width mandatory property 
+4.relative path '../../ff'
+5.absulate path '@/ff/'
 
 */

@@ -1,4 +1,8 @@
-import React from 'react';
+export const metadata={
+    title:'perosnal details',
+    description:"this is personal details page"
+
+}
 
 const PersonalDetails = ({params,searchParams}) => {
     console.log('hello world')
