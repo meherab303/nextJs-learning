@@ -1,7 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 const NextJsDataFetching = async() => {
-    const response=await fetch('http://localhost:5000/shoes',{
+ 
+    const response=await fetch('http://localhost:8000/shoes',{
         next:{
             revalidate:5
         }
@@ -9,10 +11,11 @@ const NextJsDataFetching = async() => {
     const shoes=await response.json()
     
     return (
-        <div className='grid grid-cols-3 gap-8 m-8'>
+        <div className='text-center'>
+          <div className='grid grid-cols-3 gap-8 m-8'>
             
             {
-                shoes?.map((shoe)=>(
+                shoes?.slice(0,3).map((shoe)=>(
                 <div key={shoe.id} className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                       <Image
@@ -22,7 +25,7 @@ const NextJsDataFetching = async() => {
                     <div className="card-body">
                       <h2 className="card-title">
                       {shoe.title}
-                        <div className="badge badge-secondary">NEW</div>
+                        <div className="badge badge-warning">NEW</div>
                       </h2>
                       <p>{shoe.description}</p>
                       <div className="card-actions justify-end">
@@ -34,6 +37,8 @@ const NextJsDataFetching = async() => {
                     
                 ))
             }
+        </div>
+        <Link href='/ssrfetching'><button className='btn btn-warning'>see more</button></Link>
         </div>
     );
 };

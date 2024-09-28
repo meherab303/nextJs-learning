@@ -8,5 +8,9 @@ like:localhost:3000/about/1,localhost:3000/about/2
 6.<Link href=''>
 7.css er jnno--> anyName.module.css
 8.seo friendly er jnno metada use korte hbe
+9.not found route er jnno app folder e (not-found.js) file banate hbe
+10.loading page er jnno app folder e (loading.js) file create korte hbe
+11.global error er jnnno app folder e (error.js) file create korte hbe and eitai hbe ekmatro client side component .tai "use-client" ekdm e top e deya lghbe
+12.global error page 2ta props recive kore 1.error 2.reset
 
 */

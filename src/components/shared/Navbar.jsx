@@ -51,7 +51,7 @@ const Navbar = () => {
             <li><Link href='/about/article'>Article</Link></li>
             <li><Link href='/'>Home</Link></li>
             <li><Link href='/gallery'>Gallery</Link></li>
-            <li><Link href='/fetching'>Shoes </Link></li>
+            <li><Link href='/ssgfetching'>Shoes </Link></li>
           </ul>
         </div>
         <div className="navbar-end">
